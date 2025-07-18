@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: ema-crossover-worker
+    env: python
+    plan: starter
+    buildCommand: ""
+    startCommand: "python main.py"
